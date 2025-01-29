@@ -9,7 +9,8 @@ class Rempi(AutotoolsPackage):
     """ReMPI is a record-and-replay tool for MPI applications."""
 
     homepage = "https://github.com/PRUNERS/ReMPI"
-    url = "https://github.com/PRUNERS/ReMPI/releases/download/v1.2.0/ReMPI-1.2.0.tar.gz"
+    # url = "https://github.com/PRUNERS/ReMPI/releases/download/v1.2.0/ReMPI-1.2.0.tar.gz"
+    url = "file:///work/m24oc/m24oc/s2671812/FYP/ReMPI-1.2.0.tar.gz"
     tags = ["e4s"]
 
     license("GPL-3.0-or-later")
