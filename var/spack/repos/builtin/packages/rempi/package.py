@@ -27,7 +27,7 @@ class Rempi(AutotoolsPackage):
     depends_on("automake", type="build")
     depends_on("libtool", type="build")
     depends_on("libpciaccess", type="link")
-    patch("include-string.patch", when="@1.1.0:1.2.0")
+   # patch("include-string.patch", when="@1.1.0:1.2.0")
     def flag_handler(self, name, flags):
         if name == "cflags":
             if self.spec.satisfies("%oneapi@2022.2.0:"):
